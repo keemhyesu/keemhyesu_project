@@ -1,0 +1,51 @@
+body {
+  font-family: "NanumGothic", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(images/orange.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#userInput {
+  width: 300px;
+  height: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#resultArea {
+  font-size: 20px;
+}
+
+#chanceArea {
+  margin-top: 30px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#playButton {
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: palevioletred;
+  border-color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#resetButton {
+  width: 100px;
+  height: 50px;
+  margin-top: 5px;
+  border-radius: 30px;
+  background-color: antiquewhite;
+  border-color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
