@@ -17,8 +17,8 @@ userInput.addEventListener("focus", function () {
 
 function pickRandomNumber() {
   computerNumber = Math.floor(Math.random() * 100) + 1;
-  console.log("정답숫자", computerNumber);
 }
+
 function play() {
   let userValue = userInput.value;
   if (userValue < 1 || userValue > 100) {
@@ -33,11 +33,9 @@ function play() {
   }
 
   history.push(userValue);
-  console.log(history);
 
   chances--;
   chanceArea.textContent = `남은 기회는 ${chances}번 입니다.`;
-  console.log("몇번남음", chances);
 
   if (userValue < computerNumber) {
     resultArea.textContent = "UP!!!";
