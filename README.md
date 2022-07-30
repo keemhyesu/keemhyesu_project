@@ -1,7 +1,7 @@
 # keemhyesu_project  
 ## * 랜덤 숫자 맞추기 게임
 <img width="303" alt="랜덤숫자게임" src="https://user-images.githubusercontent.com/98025141/178411261-267607f3-b23c-4547-8097-7a85c1692763.png">
-
+🛹데모앱 https://keemhyesu-website.netlify.app/
 ## * 기능
 1. 컴퓨터가 랜덤번호를 지정한다
 2. 사용자가 번호를 입력한다. 그리고 `go` 버튼을 누른다
